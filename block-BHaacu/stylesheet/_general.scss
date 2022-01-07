@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  // font-family: "Archivo", sans-serif;
+  font-family: $font;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 72px;
+  width: 100%;
+}
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.flex-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.flex-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
